@@ -1,0 +1,45 @@
+@import '../../style/variable.scss';
+
+.app-title {
+  font-family: $header-font;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-subtitle {
+  text-align: center;
+}
+
+.header-component {
+  position: relative;
+  padding: 20px;
+}
+
+.search-login-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-search {
+  background: url('../../assets/magnifier-tool.png');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 5px 2px;
+}
+
+.button {
+  outline: none;
+  border: none;
+  &:hover{
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects tests should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <projectForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="project-form"
+>
+          <div
+                    className="input-labels"
+          >
+                    <span
+                              className="project-input-label"
+                    >
+                              Title
+                    </span>
+                    <span
+                              className="project-input-label"
+                    >
+                              Description
+                    </span>
+                    <span
+                              className="project-input-label"
+                    >
+                              Goal
+                    </span>
+          </div>
+          <div
+                    className="project-inputs"
+          >
+                    <input
+                              className="project-input single-input"
+                              name="title"
+                              type="text"
+                    />
+                    <textarea
+                              className="project-input"
+                              name="description"
+                              placeholder="Why should people fund this project?"
+                              type="text"
+                    />
+                    <input
+                              className="project-input single-input"
+                              name="goal"
+                              type="text"
+                    />
+          </div>
+</div>,
+        <RaisedButton
+          disabled={false}
+          fullWidth={false}
+          label="default"
+          labelPosition="after"
+          primary={false}
+          secondary={false}
+/>,
+        <button
+          className="button btn-create"
+>
+          Create
+</button>,
+      ],
+      "className": "project-form-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="input-labels"
+>
+              <span
+                            className="project-input-label"
+              >
+                            Title
+              </span>
+              <span
+                            className="project-input-label"
+              >
+                            Description
+              </span>
+              <span
+                            className="project-input-label"
+              >
+                            Goal
+              </span>
+</div>,
+            <div
+              className="project-inputs"
+>
+              <input
+                            className="project-input single-input"
+                            name="title"
+                            type="text"
+              />
+              <textarea
+                            className="project-input"
+                            name="description"
+                            placeholder="Why should people fund this project?"
+                            type="text"
+              />
+              <input
+                            className="project-input single-input"
+                            name="goal"
+                            type="text"
+              />
+</div>,
+          ],
+          "className": "project-form",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="project-input-label"
+>
+                  Title
+</span>,
+                <span
+                  className="project-input-label"
+>
+                  Description
+</span>,
+                <span
+                  className="project-input-label"
+>
+                  Goal
+</span>,
+              ],
+              "className": "input-labels",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Title",
+                  "className": "project-input-label",
+                },
+                "ref": null,
+                "rendered": "Title",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Description",
+                  "className": "project-input-label",
+                },
+                "ref": null,
+                "rendered": "Description",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Goal",
+                  "className": "project-input-label",
+                },
+                "ref": null,
+                "rendered": "Goal",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="project-input single-input"
+                  name="title"
+                  type="text"
+/>,
+                <textarea
+                  className="project-input"
+                  name="description"
+                  placeholder="Why should people fund this project?"
+                  type="text"
+/>,
+                <input
+                  className="project-input single-input"
+                  name="goal"
+                  type="text"
+/>,
+              ],
+              "className": "project-inputs",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "project-input single-input",
+                  "name": "title",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "project-input",
+                  "name": "description",
+                  "placeholder": "Why should people fund this project?",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "project-input single-input",
+                  "name": "goal",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "disabled": false,
+          "fullWidth": false,
+          "label": "default",
+          "labelPosition": "after",
+          "primary": false,
+          "secondary": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Create",
+          "className": "button btn-create",
+        },
+        "ref": null,
+        "rendered": "Create",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="project-form"
+>
+            <div
+                        className="input-labels"
+            >
+                        <span
+                                    className="project-input-label"
+                        >
+                                    Title
+                        </span>
+                        <span
+                                    className="project-input-label"
+                        >
+                                    Description
+                        </span>
+                        <span
+                                    className="project-input-label"
+                        >
+                                    Goal
+                        </span>
+            </div>
+            <div
+                        className="project-inputs"
+            >
+                        <input
+                                    className="project-input single-input"
+                                    name="title"
+                                    type="text"
+                        />
+                        <textarea
+                                    className="project-input"
+                                    name="description"
+                                    placeholder="Why should people fund this project?"
+                                    type="text"
+                        />
+                        <input
+                                    className="project-input single-input"
+                                    name="goal"
+                                    type="text"
+                        />
+            </div>
+</div>,
+          <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="default"
+            labelPosition="after"
+            primary={false}
+            secondary={false}
+/>,
+          <button
+            className="button btn-create"
+>
+            Create
+</button>,
+        ],
+        "className": "project-form-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="input-labels"
+>
+                <span
+                                className="project-input-label"
+                >
+                                Title
+                </span>
+                <span
+                                className="project-input-label"
+                >
+                                Description
+                </span>
+                <span
+                                className="project-input-label"
+                >
+                                Goal
+                </span>
+</div>,
+              <div
+                className="project-inputs"
+>
+                <input
+                                className="project-input single-input"
+                                name="title"
+                                type="text"
+                />
+                <textarea
+                                className="project-input"
+                                name="description"
+                                placeholder="Why should people fund this project?"
+                                type="text"
+                />
+                <input
+                                className="project-input single-input"
+                                name="goal"
+                                type="text"
+                />
+</div>,
+            ],
+            "className": "project-form",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="project-input-label"
+>
+                    Title
+</span>,
+                  <span
+                    className="project-input-label"
+>
+                    Description
+</span>,
+                  <span
+                    className="project-input-label"
+>
+                    Goal
+</span>,
+                ],
+                "className": "input-labels",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Title",
+                    "className": "project-input-label",
+                  },
+                  "ref": null,
+                  "rendered": "Title",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Description",
+                    "className": "project-input-label",
+                  },
+                  "ref": null,
+                  "rendered": "Description",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Goal",
+                    "className": "project-input-label",
+                  },
+                  "ref": null,
+                  "rendered": "Goal",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    className="project-input single-input"
+                    name="title"
+                    type="text"
+/>,
+                  <textarea
+                    className="project-input"
+                    name="description"
+                    placeholder="Why should people fund this project?"
+                    type="text"
+/>,
+                  <input
+                    className="project-input single-input"
+                    name="goal"
+                    type="text"
+/>,
+                ],
+                "className": "project-inputs",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "project-input single-input",
+                    "name": "title",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "project-input",
+                    "name": "description",
+                    "placeholder": "Why should people fund this project?",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "textarea",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "project-input single-input",
+                    "name": "goal",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": false,
+            "fullWidth": false,
+            "label": "default",
+            "labelPosition": "after",
+            "primary": false,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Create",
+            "className": "button btn-create",
+          },
+          "ref": null,
+          "rendered": "Create",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Container Login should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login
+    createUser={[Function]}
+    inputChange={[Function]}
+    loginUser={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="login-inputs"
+>
+        <input
+                className="input-field"
+                name="email"
+                placeholder="Email"
+                type="text"
+                value=""
+        />
+        <input
+                className="input-field"
+                name="password"
+                placeholder="Password"
+                type="password"
+                value=""
+        />
+        <button
+                className="btn-sign-in"
+        >
+                Sign In
+        </button>
+</div>,
+      "className": "login-page",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <input
+            className="input-field"
+            name="email"
+            placeholder="Email"
+            type="text"
+            value=""
+/>,
+          <input
+            className="input-field"
+            name="password"
+            placeholder="Password"
+            type="password"
+            value=""
+/>,
+          <button
+            className="btn-sign-in"
+>
+            Sign In
+</button>,
+        ],
+        "className": "login-inputs",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "input-field",
+            "name": "email",
+            "placeholder": "Email",
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "input-field",
+            "name": "password",
+            "placeholder": "Password",
+            "type": "password",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sign In",
+            "className": "btn-sign-in",
+          },
+          "ref": null,
+          "rendered": "Sign In",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="login-inputs"
+>
+          <input
+                    className="input-field"
+                    name="email"
+                    placeholder="Email"
+                    type="text"
+                    value=""
+          />
+          <input
+                    className="input-field"
+                    name="password"
+                    placeholder="Password"
+                    type="password"
+                    value=""
+          />
+          <button
+                    className="btn-sign-in"
+          >
+                    Sign In
+          </button>
+</div>,
+        "className": "login-page",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="input-field"
+              name="email"
+              placeholder="Email"
+              type="text"
+              value=""
+/>,
+            <input
+              className="input-field"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+/>,
+            <button
+              className="btn-sign-in"
+>
+              Sign In
+</button>,
+          ],
+          "className": "login-inputs",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-field",
+              "name": "email",
+              "placeholder": "Email",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-field",
+              "name": "password",
+              "placeholder": "Password",
+              "type": "password",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign In",
+              "className": "btn-sign-in",
+            },
+            "ref": null,
+            "rendered": "Sign In",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,34 @@
+.project-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.project-form {
+  display: flex;
+  justify-content: center; }
+
+.input-labels {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 25px; }
+
+.project-inputs {
+  display: flex;
+  flex-direction: column; }
+
+.project-input {
+  width: 300px;
+  margin: 5px;
+  font-size: 16px; }
+
+.project-input-label {
+  margin: 10px; }
+
+.single-input {
+  height: 20px; }
+
+button.btn-create {
+  border: 1px solid green;
+  width: 150px;
+  margin-top: 20px; }

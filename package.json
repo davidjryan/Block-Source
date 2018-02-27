@@ -1,0 +1,28 @@
+{
+  "name": "blocksource",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "build-css": "node-sass-chokidar client/src/ -o client/src/",
+    "watch-css":
+      "npm run build-css && node-sass-chokidar client/src/ -o client/src/ --watch --recursive",
+    "stage": "cd client && npm run build cd ..",
+    "test": "mocha --exit"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "firebase": "^4.10.0",
+    "knex": "^0.14.3",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.1",
+    "node-sass-chokidar": "0.0.3"
+  }
+}

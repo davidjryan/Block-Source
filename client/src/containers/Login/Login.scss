@@ -1,0 +1,17 @@
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  width: 200px;
+  margin: 10px;
+  height: 20px;
+}
+
+.btn-sign-in {
+  width: 100px;
+  margin-top: 10px;
+  outline: none;
+}
